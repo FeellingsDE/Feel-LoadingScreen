@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+    <div id="overlay">
+        <div class="fullscreen-bg">
+            <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video"><source src="assets/bg.mp4" type="video/mp4"></video>
+            <audio controls loop autoplay hidden id="song"><source src="assets/bg.mp4" type="audio/mp4"></audio>
+        </div>
+    </div>
+
+    <img src="assets/logo.png" alt="" />
+
+    <script src="js/main.js"></script>
+    <script> var audio = document.getElementById("song"); audio.volume = 0.1; </script>
+    </body>
+</html>
